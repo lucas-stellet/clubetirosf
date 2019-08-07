@@ -1,19 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Clube de Tiro de São Fidélis - RJ</title>
+    <meta name="author" content="Lucas Stellet">
+    <meta name="copyright" content="© 2019 LuStePe">
+    <meta name="description" content="Site oficial do Clube de Tiro de São Fidélis - RJ">
+    <meta name="keywords" content="clube, tiro, sao fidelis, rio de janeiro, arma, tiro esportivo">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet">
+    <!-- Bootstrap 4.3 CSS -->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/custom.css">
+    <!-- Webpage title -->
+    <title>Clube de Tiro de São Fidélis - RJ</title>
 </head>
+
 <body>
     <header>
-        <h1>Clube de Tiro de São Fidélis - RJ</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand col-9" href="#">
+                <img src="/assets/img/logo-clube.png" id="logo-clube" alt="logo do clube de tiro">
+            </a> <button class="navbar-toggler col-2" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            O Clube
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Diretoria</a>
+                            <a class="dropdown-item" href="#">Estatuto</a>
+                            <a class="dropdown-item" href="#">Legislação</a>
+                            <a class="dropdown-item" href="#">Regulamentos</a>
+                            <a class="dropdown-item" href="#">Como filiar-se</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fotos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resultados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Digite aqui o que deseja buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
     </header>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="/node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="/node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="/node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,14 @@
+{
+  "name": "clubetirosf",
+  "version": "1.0.0",
+  "description": "Página do Clube de Tiro de São Fidélis",
+  "main": "index.js",
+  "repository": "https://github.com/lucas-stellet/clubetirosf",
+  "author": "Lucas Stellet Pedreiro",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}

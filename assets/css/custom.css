@@ -1,6 +1,16 @@
 body {
     font-family: 'Cabin', sans-serif;
     background-color: rgb(233, 226, 33);
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: auto;
+}
+
+p {
+    margin: 0px;
 }
 
 /* NAVBAR */
@@ -50,10 +60,42 @@ body {
 /* UTILITIES */
 
 .utilities {
-    margin: 10px;
+    margin: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.158);
 }
-.utilities-join {
-    font-size: 25px;
+.utilities-item {
+    padding: 10px;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: 600;
+}
+
+/* CALENDAR */
+
+.calendar {
+    margin: 20px;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.158);
+}
+
+.calendar-title {
+    font-size: 2rem;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.158);
+}
+
+
+.calendar-month{
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.calendar-days {
+    font-size: 1.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+.calendar-day p {
+    background: rgba(195, 1, 1, 0.658);
+    font-weight: bolder;
 }

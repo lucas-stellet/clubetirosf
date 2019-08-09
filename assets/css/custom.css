@@ -72,30 +72,86 @@ p {
 
 /* CALENDAR */
 
-.calendar {
-    margin: 20px;
+.next-events {
+    margin: 30px 20px;
     text-align: center;
     border: 2px solid rgba(0, 0, 0, 0.158);
+    background: rgb(233, 226, 33);
 }
 
-.calendar-title {
+.next-events-title {
+    font-size: 2rem;
+    font-weight: 500;    
+}
+
+.next-events-month{
+    font-size: 1.7rem;
+    font-weight: 400;
+    border-top: 2px solid rgba(0, 0, 0, 0.158);
+    margin-top: 2px;
+}
+
+.next-events-days {
+    font-size: 1.2rem;
+    margin: 4px;   
+}
+
+.next-events-date{
+    font-weight: bolder;
+    background: rgba(195, 1, 1, 0.85);
+}
+
+.next-events-weekday {
+    background:rgba(255, 255, 255, 0.85);
+    padding: 30px;
+}
+
+.next-events-footer {
+    border-top: 2px solid rgba(0, 0, 0, 0.158);
+    margin-top: 2px;
+}
+
+.next-events-info p {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    display: inline-block;
+    padding: 2px;
+}
+
+.btn-circle {
+    width: auto;
+    height: auto;
+    padding: 4px 4px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 0.8em;
+    line-height: 1.42857;
+}
+
+.articles {
+    margin: 30px 20px;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.158);
+    background: rgb(233, 226, 33);
+}
+
+.articles-title p{
     font-size: 2rem;
     font-weight: 500;
     border-bottom: 2px solid rgba(0, 0, 0, 0.158);
 }
 
-
-.calendar-month{
-    font-size: 1.7rem;
-    font-weight: 400;
+.articles-img img {
+    width: 280px;
+    height: 150px;
+    margin-top: 25px;
 }
 
-.calendar-days {
-    font-size: 1.2rem;
-    border: 1px solid rgba(0, 0, 0, 0.158);
-}
-
-.calendar-day p {
-    background: rgba(195, 1, 1, 0.658);
-    font-weight: bolder;
+.articles-minitext p {
+    margin-top: 25px;
+    text-align: left;
+    font-size: 1.0rem;
+    padding: 0px 16px;
 }

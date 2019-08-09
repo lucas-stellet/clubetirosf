@@ -2,8 +2,6 @@ body {
     font-family: 'Cabin', sans-serif;
     background-color: #292929;
     /* background-color: rgba(233, 226, 33, 0.82); */
-    margin: 0px;
-    padding: 0px;
 }
 
 header {
@@ -29,6 +27,9 @@ a:hover {
 
 /* NAVBAR */
 
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,1 )' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
+    }
 
 .bg-dark {
     background-color: rgb(245, 220, 25) !important;
@@ -67,19 +68,20 @@ a:hover {
 .main-header {
     background: rgb(245, 220, 25);
     margin-top: -1px;
-    margin-left: -15px;
-    margin-right: -15px;
-    padding-left: 0px;
-    padding-right: 0px;
 }
 
 .main-header p {
     font-size: 2.5rem;
-    padding: 2px 15px;
+    padding: 10px 0px;
     font-weight: bolder;
     text-align: center;
     margin: 0px;
     color:  black;
+}
+
+.main-header-text {
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 /* CAROUSEL*/
@@ -133,6 +135,7 @@ a:hover {
 .next-events-days {
     font-size: 1.2rem;
     margin: 4px;
+    width: 100px;
 }
 
 .next-events-date{
@@ -154,7 +157,7 @@ a:hover {
 }
 
 .next-events-footer {
-    margin-top: 2px;
+    margin-top: 30px;
 }
 
 .next-events-info p {
@@ -243,7 +246,8 @@ a:hover {
 .location {
     margin: 50px 0;
     text-align: center;
-    
+    border-top: .5px solid #9a9696;
+    border-bottom: .5px solid #9a9696;
 }
 
 .location-title p {
@@ -251,6 +255,7 @@ a:hover {
     font-weight: 500;
     padding: 0px 6px;
     color: rgb(245, 220, 25);
+    margin-top: 50px
 }
 
 .google-maps {
@@ -261,6 +266,7 @@ a:hover {
     margin: 5px;
     border: 2px solid rgba(0, 0, 0, 0.158);
     background: white;
+    margin-bottom: 50px;
 }
 
 .google-maps iframe {
@@ -303,4 +309,36 @@ a:hover {
 .docs-name p {
     font-size: 1.2rem;
     color: rgb(245, 220, 25)
+}
+
+/* FOOTER */
+
+footer {
+    background: rgb(245, 220, 25);
+    color: black;
+}
+
+footer a {
+    color: black;
+}
+.footer{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+.footer-title {
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 20px 0;
+}
+
+.footer-filiado-img {
+    width: 120px;
+    height: 90px;
+}
+
+.footer-socialmedia-logo {
+    font-size: 4rem;
 }
